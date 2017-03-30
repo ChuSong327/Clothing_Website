@@ -10,7 +10,7 @@ html, body {
 .container {
   max-width: 940 px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .header {
@@ -28,22 +28,22 @@ html, body {
 }
 
 .nav {
-  color: rgb(255, 255, 255);
+  color: #C5B358;
   display: inline;
   font-family: 'Philosopher', sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
   margin-right: 25px;
   text-transform: uppercase;
 }
 
 
 .action {
-  color :rgb(255, 255, 255);
+  color: #C5B358;
   display: inline;
   font-family: 'Philosopher', sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
   margin-left: 25px;
   text-transform: uppercase;
   float: right;
@@ -75,4 +75,53 @@ html, body {
   font-size: 20px;
   font-weight:bold;
   text-align: center;
+}
+
+.category1 {
+  margin: 0;
+  background-color:rgb(255, 227, 214);
+  width: 550px;
+  height: 250px;
+}
+
+.series1 h2 {
+  margin: 0 auto;
+  color: rgb(55, 56, 58);
+  text-align: center;
+  padding-top: 100px;
+  font-family:'Raleway', sans-serif;
+  font-size: 35px;
+}
+
+.category2 {
+  margin: 0 auto;
+  background-color: rgb(255, 198, 228);
+  width: 550px;
+  height: 250px;
+  float: right;
+}
+
+.series2 h2 {
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(55, 56, 58);
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+}
+
+.category3 {
+  margin: 0;
+  background-color: rgb(188, 236, 255);
+  width: 550px;
+  height:250px;
+}
+
+.series3 h2 {
+  margin: 0;
+  text-align: center;
+  color:  rgb(55, 56, 58);
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
 }
